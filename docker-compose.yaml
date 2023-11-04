@@ -2,6 +2,6 @@ version: '3.8'
 services:
     sonos-api:
         image: sonos-api
-        context: ./build
+        build: ./build
         restart: always
         network_mode: host
